@@ -3,6 +3,7 @@ def my_select(collection)
  r_array
  while i < collection.length
    r_array << if yield array[i] == true
+   end
  end
  r_array
 end
